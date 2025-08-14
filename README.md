@@ -7,11 +7,7 @@ It is structured for **clarity, reusability, and maintainability**, with each fe
 
 ## 📂 Project Structure & Purpose
 
-src
-└── main
-└── java/pages # Page classes – reusable Selenium actions
-└── test
-└── java/tests # Test cases – scripts that use the page classes
+
 
 ### **1. Page Classes (main/java/pages)**
 These classes **represent different pages of the application**.  
@@ -117,7 +113,4 @@ This ensures clarity and makes debugging easier.
 
 ---
 
-## 🚀 Running a Test Example
 
-```bash
-mvn test -Dtest=PointsTableScraper
